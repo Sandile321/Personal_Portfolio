@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="icon" href="Images/favicons.ico">
+  <link rel="stylesheet" href="CSS/MediaQuery.css">
+  <link rel="stylesheet" href="CSS/contact.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <script
+  src="https://kit.fontawesome.com/64d58efce2.js"
+  crossorigin="anonymous"
+></script>
+</head>
+<body>
+ <nav>
+    <ul class="sidebar">
+      <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="About.html">ABOUT</a></li>
+      <li><a href="Skills.html">SKILLS</a></li>
+      <li><a href="MyWorks.html">MY WORKS</a></li>
+      <li><a href="Contact.html">CONTACT</a></li>
+    </ul>
+    <ul>
+      <li><a href="#">Code With Me</a></li>
+      <li class="hideOnMobile"><a href="index.html">HOME</a></li>
+      <li class="hideOnMobile"><a href="About.html">ABOUT</a></li>
+      <li class="hideOnMobile"><a href="Skills.html">SKILLS</a></li>
+      <li class="hideOnMobile"><a href="MyWorks.html">MY WORKS</a></li>
+      <li class="hideOnMobile"><a href="Contact.html">CONTACT</a></li>
+      <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+    </ul>
+  </nav>
+    <br><br>
+    <div class="container">
+      <span class="big-circle"></span>
+      <!-- <img src="images/shape.png" class="square" alt="" /> -->
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Let's get in touch</h3>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+            dolorum adipisci recusandae praesentium dicta!
+          </p>
+
+          <div class="info">
+            <div class="information">
+              <i class='fas fa-map-marker-alt' style='font-size:24px'></i>
+              <p>&emsp;&emsp;25 Sailors green, 7441 </p>
+            </div>
+            <div class="information">
+              <i class='fas fa-envelope' style='font-size:24px'></i>
+              
+              <p>&emsp;&emsp;sandile@gmail.com</p>
+            </div>
+            <div class="information">
+              <i class='fas fa-phone' style='font-size:26px'></i>
+              <p>&emsp;&emsp;079 911 3335</p>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <p>Connect with me :</p>
+            <div class="social-icons">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form action="index.html" autocomplete="off">
+            <h3 class="title">Contact me</h3>
+            <div class="input-container">
+              <input type="text" name="name" class="input" />
+              <label for="">Username</label>
+              <span>Username</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input" />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container">
+              <input type="tel" name="phone" class="input" />
+              <label for="">Phone</label>
+              <span>Phone</span>
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input"></textarea>
+              <label for="">Message</label>
+              <span>Message</span>
+            </div>
+            <input type="submit" value="Send" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="Script.js"></script>
+  </body>
+</html>
