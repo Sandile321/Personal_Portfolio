@@ -216,11 +216,11 @@ nav li:first-child{
 .about-right h1 {
     color: black;
     font-size: 37px;
-    margin-bottom: 5px;
+    margin-top: -80px;
 }
 
 .about-right p {
-    color: #444;
+    color: black;
     line-height: 26px;
     font-size: 15px;
 }
@@ -235,7 +235,7 @@ nav li:first-child{
 
 .address .address-logo {
     margin-right: 15px;
-    color: #e74d06;
+    color: black;
 }
 
 .address .saprater {
@@ -256,14 +256,14 @@ nav li:first-child{
 .expertise .expertise-logo {
     font-size: 19px;
     margin-right: 10px;
-    color: #e74d06;
+    color: black;
 }
 
 .icon ion-icon{
-  margin-left: 7%;
-  color: #000;
+  margin-right: 1%;
+  /* color: #000;
   margin-right: -60px;
   font-size: 40px;
-  transition: .4s ease;
-  margin-bottom: 400px;
+  transition: .4s ease; */
+  /* margin-bottom: 40px; */
 }
