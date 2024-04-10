@@ -27,3 +27,8 @@ function blurFunc() {
     input.addEventListener("focus", focusFunc);
     input.addEventListener("blur", blurFunc);
   });
+
+// Hire me
+  function callNumber(phoneNumber) {
+    window.location.href = 'tel:' + phoneNumber;
+}
