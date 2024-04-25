@@ -13,7 +13,9 @@ body{
 }
 nav{
   background-color: #777a7a;
+  height: 70px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
 }
 nav ul{
   width: 100%;
@@ -268,36 +270,82 @@ hr{
     color: black;
 }
 
-.Bar {
-  display: flex;
-  justify-content: first baseline; /* Align items to the right */
-}
-.Bar-left h3{
-  display: flex;
-  margin-left: 1000px;
-}
+/* Skills */
 
-.progress-bar {
-  width: 300px; /* Adjust width as needed */
-  height: 10px; /* Adjust height as needed */
-  background-color: #f0f0f0; /* Background color of progress bar */
-  border-radius: 5px; /* Adjust border radius as needed */
+.skills{
+    padding: 5rem 0 2.5rem 0;
 }
-.progress-bar-left {
-  width: 300px; /* Adjust width as needed */
-  height: 10px; /* Adjust height as needed */
-  background-color: #f0f0f0; /* Background color of progress bar */
-  border-radius: 5px; /* Adjust border radius as needed */
-  direction: rtl;
+.skills > .text{
+    width: 70%;
+    margin: 1.5rem auto;
+    text-align: center;
 }
-
-.progress {
-  height: 100%;
-  background-color: rgb(248, 101, 47); /* Color of the progress */
-  text-align: center;
-  line-height: 30px; /* Center the text vertically */
-  color: white;
-  border-radius: 5px; /* Adjust border radius to match parent */
+.skills .row{
+    margin: 1rem 0;
+}
+.skills .item{
+    padding: 0.5rem 0;
+    margin: 0.3rem 0;
+}
+.skills .item-text{
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 600;
+    font-size: 1.3rem;
+    position: relative;
+}
+.skills .item-text span:last-child{
+    position: absolute;
+}
+.skills .item-text .w-90{
+    margin-left: 85%;
+}
+.skills .item-text .w-75{
+    margin-left: 70%;
+}
+.skills .item-text .w-85{
+    margin-left: 80%;
+}
+.skills .item-text .w-80{
+    margin-left: 75%;
+}
+.skills .item-text .w-60{
+    margin-left: 55%;
+}
+.skills .item-text .w-68{
+    margin-left: 63%;
+}
+.progress{
+    margin: 0.8rem 0;
+    border-radius: 10px;
+    height: 16px;
+    width: 100%;
+    background-color: #777a7a;
+    overflow: hidden;
+}
+.progress-bar{
+    background: var(--green);
+    height: 100%;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.progress-bar.w-90{
+    width: 90%;
+}
+.progress-bar.w-75{
+    width: 75%;
+}
+.progress-bar.w-85{
+    width: 85%;
+}
+.progress-bar.w-80{
+    width: 80%;
+}
+.progress-bar.w-60{
+    width: 60%;
+}
+.progress-bar.w-68{
+    width: 68%;
 }
 
 /* My works */
@@ -312,9 +360,9 @@ hr{
 }
 
 .project-img {
-  border-radius: 2rem;
+  border-radius: -100rem;
   width: 100%;
-  height: 90%;
+  height: 100%;
 }
 
 .project-title {
@@ -344,7 +392,7 @@ hr{
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: #c0babd;
+  background: #777a7a;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
@@ -390,4 +438,23 @@ section {
 .Mywork {
   font-size: 3rem;
   text-align: center;
+}
+
+.btn {
+  padding: 0.6rem 1.3rem;
+  background-color: #404444;
+  border: 2px solid #c0babd;
+  font-size: 0.95rem;
+  color: #c0babd;
+  line-height: 1;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 0;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: #c0babd;
 }
